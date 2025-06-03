@@ -1,0 +1,1 @@
+In this project I implement advanced CSS concepts into a smile school's website
