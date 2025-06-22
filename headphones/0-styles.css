@@ -1,0 +1,78 @@
+/* reset */
+* {
+    margin: 0px;
+    padding: 0px;
+}
+/*Style the navigation bar*/
+nav {
+    padding-right: 100px;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+li {
+    list-style-type: none;
+    display: inline;
+    float: right;
+}
+li a {
+    text-decoration: none;
+    color: black;
+    padding: 15px;
+    color:#FFFF;
+}
+li a:hover {
+    color: #f35050;
+}
+.image {
+    position: absolute;
+    padding: 0px;
+    top: 0px;
+    z-index: -1;
+    width: 100%;
+    height: auto;
+}
+.logo {
+    width: 10%;
+    height: auto;
+}
+h1 {
+    margin: auto;
+    width: 50%;
+    color: #FFFF;
+    font-size: 2rem;
+    font-weight: bold;
+    line-height: 1.5;
+    padding-top: 300px;
+}
+h2 {
+     margin: auto;
+    width: 50%;
+    color: #FFFF;
+    font-size: 1rem;
+    line-height: 1.5;
+    padding-left: 200px;
+
+}
+p {
+    margin: auto;
+    width: 50%;
+    color: #FFFF;
+    font-size: 1.2rem;
+    line-height: 1.5;
+    padding-top: 100px;
+}
+.button{
+    margin: auto;
+    width: 50%;  
+    padding-left: 350px; 
+    padding-top: 40px;
+}
+.button button {
+    background-color: #f35050;
+    width: 150px;
+    box-sizing: border-box;
+    border-radius: 50px;
+    border-color: #f35050;
+    padding: 10px;
+    color: #FFFF;
+}
